@@ -1,4 +1,4 @@
-Get-Content 'C:\Users\nkwiecie\Downloads\Matched_hosts - Copy.csv' | ForEach-Object  {
+Get-Content 'C:\Users\Jdoe\Downloads\Matched_hosts - Copy.csv' | ForEach-Object  {
             
                 
                
@@ -32,4 +32,4 @@ Get-Content 'C:\Users\nkwiecie\Downloads\Matched_hosts - Copy.csv' | ForEach-Obj
                'username' = $username.matches.value 
               }
                         #Finally exported to CSV 
-                } | Export-Csv C:\Users\nkwiecie\Downloads\output.csv
+                } | Export-Csv C:\Users\jDoe\Downloads\output.csv
